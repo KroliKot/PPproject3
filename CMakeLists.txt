@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.4)
+project(PP3)
+add_subdirectory(extern/pybind11)
+#add_subdirectory(extern/matplotplusplus)
+pybind11_add_module(Project3 mian.cpp)
+#target_link_libraries(mian PUBLIC matplot)
+#set_property(TARGET matplot PROPERTY POSITION_INDEPENDENT_CODE ON)
