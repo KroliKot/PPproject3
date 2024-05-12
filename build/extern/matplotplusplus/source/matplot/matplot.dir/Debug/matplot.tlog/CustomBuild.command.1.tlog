@@ -1,0 +1,10 @@
+^C:\USERS\AREKL\OKOK\PPPROJECT3\EXTERN\MATPLOTPLUSPLUS\SOURCE\MATPLOT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/arekl/okok/PPproject3 -BC:/Users/arekl/okok/PPproject3/build --check-stamp-file C:/Users/arekl/okok/PPproject3/build/extern/matplotplusplus/source/matplot/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

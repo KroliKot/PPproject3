@@ -1,6 +1,6 @@
-^C:\USERS\TYMON\ONEDRIVE\DOCUMENTS\PP3\PPPROJECT3\BUILD\CMAKEFILES\F16FB605EB0B9A209DAEE4606B2BB227\GENERATE.STAMP.RULE
+^C:\USERS\AREKL\OKOK\PPPROJECT3\BUILD\CMAKEFILES\A8ED107900830EEA5524210C3692BBB0\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tymon/OneDrive/Documents/PP3/PPproject3 -BC:/Users/tymon/OneDrive/Documents/PP3/PPproject3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tymon/OneDrive/Documents/PP3/PPproject3/build/PP3.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/arekl/okok/PPproject3 -BC:/Users/arekl/okok/PPproject3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/arekl/okok/PPproject3/build/PP3.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/tymon/OneDrive/Documents/PP3/PPproject3
+# Install script for directory: C:/Users/arekl/okok/PPproject3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/tymon/OneDrive/Documents/PP3/PPproject3/build/extern/pybind11/cmake_install.cmake")
+  include("C:/Users/arekl/okok/PPproject3/build/extern/pybind11/cmake_install.cmake")
+  include("C:/Users/arekl/okok/PPproject3/build/extern/matplotplusplus/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/tymon/OneDrive/Documents/PP3/PPproject3/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/arekl/okok/PPproject3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

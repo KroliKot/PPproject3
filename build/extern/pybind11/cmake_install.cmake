@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/tymon/OneDrive/Documents/PP3/PPproject3/extern/pybind11
+# Install script for directory: C:/Users/arekl/okok/PPproject3/extern/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

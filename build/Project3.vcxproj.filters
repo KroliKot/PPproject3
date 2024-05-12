@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\tymon\OneDrive\Documents\PP3\PPproject3\mian.cpp">
+    <ClCompile Include="C:\Users\arekl\okok\PPproject3\mian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tymon\OneDrive\Documents\PP3\PPproject3\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\arekl\okok\PPproject3\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6740273C-4CA2-3E45-9647-3539264BD8F6}</UniqueIdentifier>
+      <UniqueIdentifier>{6EE91F6A-44E9-39F4-9896-253284171C24}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

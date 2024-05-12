@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\tymon\OneDrive\Documents\PP3\PPproject3\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\arekl\okok\PPproject3\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\tymon\OneDrive\Documents\PP3\PPproject3\build\Debug\Project3.cp312-win_amd64.pyd</FullPath>
+      <FullPath>C:\Users\arekl\okok\PPproject3\build\Debug\Project3.cp312-win_amd64.pyd</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\tymon\OneDrive\Documents\PP3\PPproject3\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\arekl\okok\PPproject3\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
