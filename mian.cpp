@@ -3,6 +3,7 @@
 #include <string>
 #include <matplot/matplot.h>
 #include <cmath>
+#include <iostream>
 using namespace std;
 using namespace matplot;
 using namespace pybind11;
@@ -30,9 +31,30 @@ void AUDIO(vector<double> audio, double duration)
     show();
 }
 
+void BILINEAR(double x1, double y1, double newx, double newy)
+{
+    double heigh, width;
+	width = x1/newx;
+	heigh = y1/newy;
+	for (int i=0; i<newy; i++)
+    {
+	    for (int j=0; j<newx; j++)
+        {
+            double a,b;
+			a = i * heigh;
+			b = j * width;
+			double x_floor = floor(a);
+			double x_ceil = ceil(a);
+			double y_floor = floor(b);
+			double y_ceil = ceil(b);		
+        }
+    }
+}
+
 
 PYBIND11_MODULE(Project3, yes)
 {
     yes.def("SIGNAL", &SIGNAL, "generates signal");
     yes.def("AUDIO", &AUDIO, "generates audio");
+    yes.def("BILINEAR", &BILINEAR, "interpolation, which does not work, but can be turnet into image resizing");
 }
